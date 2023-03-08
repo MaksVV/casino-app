@@ -1,0 +1,71 @@
+.field {
+  display: flex;
+}
+
+.games {
+  margin: 0 40px;
+  height: 832px;
+  width: 80%;
+  text-align: center;
+}
+
+.games h2 {
+  text-align: center;
+  line-height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  background: #242830;
+  border: 1px solid #7A7272;
+  border-radius: 10px;
+  color: #fff;
+  margin: 45px 0;
+}
+
+.games h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.games p {
+  height: 138px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.games img {
+  height: 120px;
+  margin-bottom: 50px;
+}
+
+.games ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.games li {
+  width: 100%;
+  min-width: 180px;
+  height: 220px;
+  background: #242830;
+  border: 1px solid #7A7272;
+  border-radius: 10px;
+}
+
+.games li:nth-child(2) {
+  margin: 0 30px;
+}
+
+.goal {
+  width: 100%;
+  height: 116px;
+  background: #333A49;
+  border: 1px solid #7A7272;
+  border-radius: 10px;
+}

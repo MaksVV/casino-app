@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 832px;
+  padding: 0 30px;
+}
+
+.field h2 {
+  text-align: center;
+  line-height: 48px;
+  font-size: 20px;
+  font-weight: 700;
+  background: #242830;
+  border: 1px solid #7a7272;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+.field p {
+  max-width: 100%;
+  height: 100px;
+  padding: 35px 20px 0 20px;
+  background: #242830;
+  border: 1px solid #7a7272;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.field button {
+  width: 300px;
+  height: 80px;
+  font-size: 24px;
+}
+
+.field input {
+  width: 500px;
+  height: 80px;
+  font-size: 26px;
+}
+
+.field .workbox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}

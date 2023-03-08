@@ -1,0 +1,30 @@
+.again {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.again h2 {
+  text-align: center;
+  line-height: 48px;
+  font-size: 20px;
+  font-weight: 700;
+  background: #242830;
+  border: 1px solid #7a7272;
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px;
+  height: 80px;
+  margin-bottom: 50px;
+  margin-top: 300px;
+  width: 60%;
+}
+
+.again button {
+  height: 80px;
+  width: 200px;
+  font-size: 20px;
+}

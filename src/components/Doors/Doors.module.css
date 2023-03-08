@@ -1,0 +1,38 @@
+.ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.li {
+  max-width: 80%;
+  height: 200px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.door1, .door2, .door3 {
+  background: no-repeat;
+  border-radius: 115px 115px 0 0 ;
+  width: 270px;
+  height: 350px;
+  cursor: pointer;
+  list-style: none;
+  color: rgba(255, 255, 255, 0);
+}
+
+.door1:hover, .door2:hover, .door3:hover {
+  filter: brightness(80%);
+}
+
+.door1 {
+  background-image: url('../../images/door1.png');
+}
+
+.door2 {
+  background-image: url('../../images/door2.png');
+}
+
+.door3 {
+  background-image: url('../../images/door3.png');
+}

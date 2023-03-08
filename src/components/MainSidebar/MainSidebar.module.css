@@ -1,0 +1,14 @@
+.aside {
+  width: 20%;
+  background: #181818;
+  border: 1px solid #7B7272;
+  color: #fff;
+  padding: 20px;
+}
+
+.title {
+  margin: 0 0 22px 10px;
+  padding-top: 16px;
+  font-size: 18px;
+  font-weight: 700;
+}
